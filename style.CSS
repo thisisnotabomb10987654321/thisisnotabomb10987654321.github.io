@@ -1,54 +1,51 @@
-body{
-	font-size: 17px;
-	margin: 5vh;
-	background-color: #7da8ed;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-image: url("Screen-Shot-2018-10-02-at-11.48.55-AM.png");
-}
+  <!DOCTYPE html>
 
-h1, h2, h3 {
-	text-transform: uppercase;
-	font-family: 'Noto Sans', sans-serif;
-}
+<html> 
 
-h1{
-	text-align: center;
-}
+  <head>
+  	<title>
+  	  FPV Drone Racing
+  	</title>
+  	<link rel="stylesheet" href="style/style.css">
+  	<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  </head>
 
-a:link {
-	color: #000fff;
-}
+  <body> 
 
-.pageTop{
-	background-color: #cfcfff;
-	border-radius: 50px;
-	padding: 1vh;
-}
+  	<div class="pageTop">
+  		<h1>FPV Drone Racing</h1>
+  	</div>
 
-.content {
-	background-color:#fff8dc;
-	padding: 2vh 4vh 2vh 4vh;
-	width: 65vw;
-	max-width: 980px;
-	border-radius: 10px;
-}
+  	<div class="content">
+  		<div class="smallContainer">
+  			<h2>All About FPV Drone Racing</h2>
+  		</div>
 
-.smallContainer{
-	border: 5px solid #7da8ed;
-	padding: 2vh;
-	margin: 2vh;
-	border-radius: 10px;
-}
+  			<div class="smallContainer">
+          <h3>What Is A Drone</h3>
+          <p>
+          A drone is an unmanned aircraft or ship that is guided remotely. In this case a First Person View (FPV) Drone is a quadcopter with a wirless video system attached to it.
+          </p>
+          <h3>What Are Drones Used For</h3>
+  				<p>
+  				Drones have mny uses, racing being one of them. Drones can also be used for search and rescue in emergencies, aerial navigation. Some drones are even used in the militart.
+  				</p>
+  			  <h3>Different Types Of Drones</h3>
+  				<p>
+  				There are lots of different types of drones, the most used types are racing drones, commercial use drones, and recreational drones.
+          </p>
+        </div>
 
-img {
-	width: 100%;
-}
+  	<div class="smallererContainer">
+  		<h2>Videos</h2>
+  			<p>FPV Freestyle:</p>
+  		<iframe width="560" height="315" src="https://www.youtube.com/embed/BfO3oUum-hY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  			<p>FPV Racing:</p>
+  		<iframe width="560" height="315" src="https://www.youtube.com/embed/x5sGg30Zqv8?start=274" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  	</div>
+  </div>
 
-.centerImage {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-}
+  </body>
+
+
+</html>
